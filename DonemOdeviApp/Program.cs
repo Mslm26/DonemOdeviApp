@@ -116,7 +116,6 @@
                         Console.Write("Vize Notu: ");
                         vize = double.Parse(Console.ReadLine());
                         tablo[i, 3] = vize.ToString();
-                        vize = int.Parse(tablo[i, 3]);
                         vizeNotları[i] = vize;
                         if (vize >= 0 && vize <= 100)
                         {
